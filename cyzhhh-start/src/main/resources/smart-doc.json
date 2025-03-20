@@ -1,0 +1,13 @@
+{
+  "outPath": "F:\\2020-hd-new\\cyzhhh\\smart-doc",
+  "serverUrl": "http://127.0.0.1",
+  "isStrict": false,
+  "packageFilters": "",
+  "projectName": "朝阳区智慧河湖管理系统",
+  "appKey": "20210926891673491919601664",
+  "appToken": "14a37aa9f6ec4b3da999ebc60c222310",
+  "secret": "-BjV~FYHCHpdpbuelhIC!AUnE6EN1LN=",
+  "openUrl": "http://192.168.0.217:7700/api",
+  "debugEnvName": "测试环境",
+  "debugEnvUrl": "http://192.168.0.173:8006/cyzhhh"
+}

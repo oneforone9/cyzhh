@@ -1,0 +1,121 @@
+auth:
+    config:
+        patterns: /**
+
+server:
+  port: 8006
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        namespace: dev
+        server-addr: 192.168.0.205:8848
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          password: Essence@1
+          url: jdbc:mysql://192.168.0.201:3306/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
+          username: cyzhhh
+        henrunan:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          password: Essence@1
+          url: jdbc:mysql://192.168.0.201:3306/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
+          username: cyzhhh
+
+  mvc:
+    async:
+      request-timeout: 120000
+  redis:
+    database: 1
+    host: 192.168.0.205
+    password: essence
+    port: 6379
+    timeout: 30000
+  servlet:
+    multipart:
+      max-file-size: 10240MB
+      max-request-size: 10240MB
+
+control:
+    bz:
+        url: http://localhost:9023/mqtt/control/bz
+    sz:
+        url: http://localhost:9023/mqtt/control/sz
+    url: http://localhost:9123/pump/status
+
+file:
+    browse:
+        url: http://192.168.0.13:18083
+    local:
+        path: C:\Users\Administrator\Downloads
+
+gis:
+    proxy:
+        loacte: http://101.201.146.18:6080/arcgis/rest/services/chaoyang/rainfallDzmShp/GPServer/rainfallDzm3D/execute
+
+hik:
+    execute:
+        path: http://localhost:18001/hik/execute
+
+logging:
+    level:
+        com:
+            essence:
+                '*': debug
+min:
+    io:
+        accessKey: minioadmin
+        endpoint: http://192.168.0.221:9000
+        secretKey: minioadmin
+
+msg:
+    AppID: wxc6d24e9bf7719872
+    AppSecret: 846661090d628733f066840b689dba68
+    page: pages/text/index
+    sendUrl: https://api.weixin.qq.com/cgi-bin/message/subscribe/send?access_token=
+    tmplIds: jwbUi-jy0MK-CfyyuUgHl1oA5GGnjgqtwowKwiue1fc
+    tokenUrl: https://api.weixin.qq.com/cgi-bin/token
+
+nmc:
+    ld:
+        path: http://www.nmc.cn/publish/radar/huabei.html
+    lddz:
+        path: http://www.nmc.cn/publish/radar/bei-jing/da-xing.htm
+    save:
+        path: /Users/bird/test/chaoyang
+    upload:
+        url: http://192.168.0.205:18083/cyzhhh/file/upload
+    wx:
+        path: http://www.nmc.cn/publish/satellite/fy2.htm
+
+remote:
+    amapShpPath: http://39.97.105.38:6080/arcgis/rest/services/hdfxdp/copyFeatures/GPServer/copyFeature/execute
+    amapShpPicPath: http://39.97.105.38:6080/arcgis/rest/services/xqh/exportToPicture/GPServer/exportToPicture/submitJob
+    fineGridForecastType: 95ba2d6fdf7146839f551096ffdd9ef0
+    gridLocalBasePathSelf: E:/pictures/
+    gridUrlSelf: http://localhost:9090/finegrid/
+    hdyqdzm: http://39.97.105.38:6080/arcgis/rest/services/hdzh/rainfallDzm/GPServer/rainfallDzm/execute
+    hdyqdzmPic: http://39.97.105.38:6080/arcgis/rest/services/hdzh/exportShpToPicture/GPServer/exportShpToPicture/execute
+    hdyqdzmPicNgPath: http://39.97.105.38:6868/shpToPic/
+    hdyqdzmPicShpPath: D:/gis-data/hd_zh/mxd/shpToPic/
+    hdyqdzmShp: http://39.97.105.38:6080/arcgis/rest/services/hdzh/rainfallDzmShp/GPServer/rainfallDzmShp/execute
+    password: zx5670424
+    qxjrainfallall: http://36.110.193.124:18081/qxjrainfallall
+    username: 1547426311@qq.com
+    weatherBureauActive: true
+    weatherBureauType: e6e682ca3c505901b39dcec2d85fa09c
+    weatherBureauUrl: http://10.111.62.218:18080
+    weatherBureauUrlExternal: http://220.181.119.23:18080
+    weatherBureauUrlInside: http://10.111.62.218:18080
+
+third:
+    tokens: bjlz,bjszy,jspt
+
+ysy:
+    appid: 646661152960413700
+    secretkey: 5ed7fc54fe778a6c77b2f89b3822f1f8

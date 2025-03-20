@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Don't forget to set system property
+-Dlog4j2.contextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector
+     to make all loggers asynchronous. -->
+
+<!--
+     Configuration后面的status，这个用于设置log4j2自身内部的信息输出，可以不设置，
+     当设置成trace时，可以看到log4j2内部各种详细输出
+     monitorInterval：Log4j2能够自动检测修改配置 文件和重新配置本身，设置间隔秒数 -->
+<Configuration status="WARN" monitorInterval="5">
+    <!-- 日志级别以及优先级排序: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL -->
+    <Properties>
+        <Property name="PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [%t] %-40.40c{1.} : %m%n"/>
+    </Properties>
+    <Appenders>
+        <!-- 输出到控制台，仅在本地开发环境使用 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${PATTERN}"/>
+        </Console>
+        <!--输出到日志文件，滚动分割日志文件，自动打包gz-->
+        <RollingFile name="File" fileName="logs/cyzhhh.log" filePattern="logs/cyzhhh/cyzhhh-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${PATTERN}"/>
+            <Policies>
+                <!--默认一天一个文件-->
+                <TimeBasedTriggeringPolicy/>
+                <!--一天内大于size就单独分隔-->
+                <SizeBasedTriggeringPolicy size="500 MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <!-- 添加你的自定义logger，一般用于区分包名的日志，不同包名不同的级别/appender -->
+        <!-- additivity 意思是，调用完当前appender，是否继续调用parent logger appender，默认true-->
+
+        <!--<Logger name="com.essence.business.sjszx" level="debug" additivity="true"/>-->
+        <!--默认的Root Logger 级别-->
+        <Root level="INFO">
+            <!--这里需要区分下环境（配合maven profile之类的）-->
+            <!-- 开发环境使用Console Appender，生产环境使用File Appender -->
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>

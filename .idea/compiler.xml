@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for mqtt-sz" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../../../maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="mqtt-sz" />
+      </profile>
+      <profile name="Annotation profile for cyzhhh" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../../../maven/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+          <entry name="$PROJECT_DIR$/../../../../../../maven/repository/org/mapstruct/mapstruct-processor/1.5.0.Beta1/mapstruct-processor-1.5.0.Beta1.jar" />
+          <entry name="$PROJECT_DIR$/../../../../../../maven/repository/org/mapstruct/mapstruct/1.5.0.Beta1/mapstruct-1.5.0.Beta1.jar" />
+        </processorPath>
+        <module name="cyzhhh-common" />
+        <module name="cyzhhh-pump-modbus-rtu" />
+        <module name="cyzhhh-web" />
+        <module name="cyzhhh-start" />
+        <module name="cyzhhh-websocket" />
+        <module name="cyzhhh-dao" />
+        <module name="cyzhhh-execute" />
+        <module name="cyzhhh-job" />
+        <module name="cyzhhh-job-zz-net" />
+        <module name="cyzhhh-service" />
+        <module name="cyzhhh-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cyzhhh" options="-parameters" />
+      <module name="cyzhhh-api" options="-parameters" />
+      <module name="cyzhhh-common" options="-parameters" />
+      <module name="cyzhhh-dao" options="-parameters" />
+      <module name="cyzhhh-execute" options="-parameters" />
+      <module name="cyzhhh-job" options="-parameters" />
+      <module name="cyzhhh-job-zz-net" options="-parameters" />
+      <module name="cyzhhh-pump-modbus-rtu" options="-parameters" />
+      <module name="cyzhhh-service" options="-parameters" />
+      <module name="cyzhhh-start" options="-parameters" />
+      <module name="cyzhhh-web" options="-parameters" />
+      <module name="cyzhhh-websocket" options="-parameters" />
+      <module name="iot" options="-parameters" />
+      <module name="mqtt-sz" options="-parameters" />
+    </option>
+  </component>
+</project>

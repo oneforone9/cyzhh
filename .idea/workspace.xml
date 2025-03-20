@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b3f1961-9e72-4727-9368-ad51b8289f72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2HkThicASFY3G502VxxULgMUA8i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Word2PdfUtil.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.cyzhhh [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh [com.github.shalousun:smart-doc-maven-plugin:2.2.7:torna-rest].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh [site].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-api [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-execute [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-execute [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-start [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-start [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cyzhhh-start [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mqtt-sz [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mqtt-sz [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mqtt-sz [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mqtt-sz [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApplicationRun.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.CyzhhhApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bird/workspace/essence/svn/cyzhhh/trunk/BackEnd/cyzhhh/cyzhhh-start/src/main/resources/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32413793&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cyzhhh-start/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/cyzhhh-start/src/main/resources/source" />
+      <recent name="$PROJECT_DIR$/cyzhhh-web/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cyzhhh-start/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.essence.interfaces.model" />
+      <recent name="com.essence.dao" />
+      <recent name="com.essence.dao.entity" />
+      <recent name="com.essence.interfaces.api" />
+      <recent name="com.essence.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CyzhhhApplication">
+    <configuration name="Word2PdfUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.essence.service.utils.Word2PdfUtil" />
+      <module name="cyzhhh-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.essence.service.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cyzhhh-start" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.ApplicationRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootNettyServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cyzhhh-pump-modbus-rtu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.tcp.BootNettyServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyzhhhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="cyzhhh-start" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.CyzhhhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyzhhhExecuteXxlJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cyzhhh-execute" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.CyzhhhExecuteXxlJobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyzhhhJobZzNetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cyzhhh-job-zz-net" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.CyzhhhJobZzNetApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mqtt-sz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="video.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotCyzhhhPumpModbusRtuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cyzhhh-pump-modbus-rtu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.tcp.IotCyzhhhPumpModbusRtuApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotMqttApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mqtt-sz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="video.IotMqttApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotMqttSzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mqtt-sz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="video.IotMqttSzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IotNettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cyzhhh-pump-modbus-rtu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.tcp.IotNettyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxlJobExecutorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cyzhhh-execute" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.essence.XxlJobExecutorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Word2PdfUtil" />
+      <item itemvalue="Spring Boot.ApplicationRun" />
+      <item itemvalue="Spring Boot.BootNettyServerApplication" />
+      <item itemvalue="Spring Boot.CyzhhhApplication" />
+      <item itemvalue="Spring Boot.CyzhhhExecuteXxlJobApplication" />
+      <item itemvalue="Spring Boot.CyzhhhJobZzNetApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.IotCyzhhhPumpModbusRtuApplication" />
+      <item itemvalue="Spring Boot.IotMqttApplication" />
+      <item itemvalue="Spring Boot.IotMqttSzApplication" />
+      <item itemvalue="Spring Boot.IotNettyApplication" />
+      <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Word2PdfUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b3f1961-9e72-4727-9368-ad51b8289f72" name="Default Changelist" comment="" />
+      <created>1668828202990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668828202990</updated>
+      <workItem from="1668828204190" duration="19527000" />
+      <workItem from="1668928254049" duration="5963000" />
+      <workItem from="1669001339199" duration="149000" />
+      <workItem from="1669020579818" duration="973000" />
+      <workItem from="1669024731810" duration="230000" />
+      <workItem from="1671546795029" duration="602000" />
+      <workItem from="1673107262913" duration="113000" />
+      <workItem from="1679823517922" duration="924000" />
+      <workItem from="1685627586551" duration="725000" />
+      <workItem from="1685630840186" duration="202000" />
+      <workItem from="1687857519511" duration="369000" />
+      <workItem from="1687878392985" duration="1326000" />
+      <workItem from="1688565595497" duration="1448000" />
+      <workItem from="1690943265027" duration="1309000" />
+      <workItem from="1692024990771" duration="100000" />
+      <workItem from="1693475536425" duration="1546000" />
+      <workItem from="1699685627387" duration="720000" />
+      <workItem from="1711351297222" duration="229000" />
+      <workItem from="1713172419657" duration="438000" />
+      <workItem from="1713263402560" duration="4900000" />
+      <workItem from="1713315894661" duration="1927000" />
+      <workItem from="1713432610925" duration="682000" />
+      <workItem from="1713855914250" duration="3381000" />
+      <workItem from="1714398908659" duration="3850000" />
+      <workItem from="1714954602622" duration="702000" />
+      <workItem from="1714962312387" duration="13000" />
+      <workItem from="1715073299200" duration="404000" />
+      <workItem from="1715332223394" duration="4499000" />
+      <workItem from="1715340337936" duration="7953000" />
+      <workItem from="1715352307839" duration="758000" />
+      <workItem from="1715354128712" duration="21000" />
+      <workItem from="1715423163646" duration="649000" />
+      <workItem from="1715848813831" duration="446000" />
+      <workItem from="1716255555565" duration="565000" />
+      <workItem from="1716256636511" duration="225000" />
+      <workItem from="1716342416212" duration="376000" />
+      <workItem from="1716450458333" duration="933000" />
+      <workItem from="1716453266160" duration="1056000" />
+      <workItem from="1716458789840" duration="293000" />
+      <workItem from="1716459905671" duration="75000" />
+      <workItem from="1716532086717" duration="555000" />
+      <workItem from="1716532959803" duration="253000" />
+      <workItem from="1716543364954" duration="638000" />
+      <workItem from="1716547409594" duration="4000" />
+      <workItem from="1717642793194" duration="247000" />
+      <workItem from="1717652907056" duration="9000" />
+      <workItem from="1720410492477" duration="840000" />
+      <workItem from="1721792604170" duration="1347000" />
+      <workItem from="1721824615364" duration="1262000" />
+      <workItem from="1721826743897" duration="344000" />
+      <workItem from="1731319205045" duration="385000" />
+      <workItem from="1731319782618" duration="709000" />
+      <workItem from="1732156636546" duration="7622000" />
+      <workItem from="1732186187622" duration="1154000" />
+      <workItem from="1732187407631" duration="40226000" />
+      <workItem from="1732583306732" duration="7737000" />
+      <workItem from="1732698087992" duration="15872000" />
+      <workItem from="1732757191272" duration="2995000" />
+      <workItem from="1732774164370" duration="1083000" />
+      <workItem from="1732776642067" duration="463000" />
+      <workItem from="1732777829099" duration="1302000" />
+      <workItem from="1732845339474" duration="271000" />
+      <workItem from="1733464471744" duration="2392000" />
+      <workItem from="1733472608993" duration="8428000" />
+      <workItem from="1733538933452" duration="8979000" />
+      <workItem from="1733555276509" duration="1168000" />
+      <workItem from="1733556486300" duration="1050000" />
+      <workItem from="1733557671459" duration="183000" />
+      <workItem from="1733621070305" duration="9041000" />
+      <workItem from="1733635363758" duration="3000" />
+      <workItem from="1733638891905" duration="8082000" />
+      <workItem from="1733709538939" duration="1768000" />
+      <workItem from="1733899722797" duration="49000" />
+      <workItem from="1733907424086" duration="1213000" />
+      <workItem from="1734058501537" duration="5791000" />
+      <workItem from="1734313771181" duration="10054000" />
+      <workItem from="1734417934754" duration="667000" />
+      <workItem from="1734418864261" duration="11194000" />
+      <workItem from="1734504345159" duration="1067000" />
+      <workItem from="1734516562922" duration="1713000" />
+      <workItem from="1734779322960" duration="3015000" />
+      <workItem from="1734877284693" duration="8093000" />
+      <workItem from="1734947717278" duration="24594000" />
+      <workItem from="1735111453398" duration="2756000" />
+      <workItem from="1735278548348" duration="5860000" />
+      <workItem from="1735369940705" duration="4979000" />
+      <workItem from="1735387641212" duration="54000" />
+      <workItem from="1735387846144" duration="4555000" />
+      <workItem from="1735451666647" duration="1531000" />
+      <workItem from="1735478143660" duration="5307000" />
+      <workItem from="1735570578481" duration="3591000" />
+      <workItem from="1735782944796" duration="4796000" />
+      <workItem from="1736215704429" duration="8246000" />
+      <workItem from="1736326456604" duration="6946000" />
+      <workItem from="1736412584912" duration="1829000" />
+      <workItem from="1736421887987" duration="4112000" />
+      <workItem from="1736435682462" duration="730000" />
+      <workItem from="1736567498945" duration="5138000" />
+      <workItem from="1736736731536" duration="893000" />
+      <workItem from="1736824240170" duration="1553000" />
+      <workItem from="1737084067845" duration="177000" />
+      <workItem from="1737293918056" duration="191000" />
+      <workItem from="1737688222731" duration="1841000" />
+      <workItem from="1738826168383" duration="3966000" />
+      <workItem from="1738891633644" duration="5576000" />
+      <workItem from="1738974794449" duration="1677000" />
+      <workItem from="1739085916035" duration="462000" />
+      <workItem from="1739145473450" duration="9311000" />
+      <workItem from="1739327891292" duration="11194000" />
+      <workItem from="1739500191426" duration="19433000" />
+      <workItem from="1739755503832" duration="15000" />
+      <workItem from="1739943763672" duration="1694000" />
+      <workItem from="1739956411671" duration="1396000" />
+      <workItem from="1740018135767" duration="10182000" />
+      <workItem from="1740527059442" duration="5681000" />
+      <workItem from="1740622896936" duration="3866000" />
+      <workItem from="1740701530660" duration="2166000" />
+      <workItem from="1741068856931" duration="6354000" />
+      <workItem from="1741097291404" duration="190000" />
+      <workItem from="1741138661787" duration="2797000" />
+      <workItem from="1741588313778" duration="969000" />
+      <workItem from="1741600752962" duration="44000" />
+      <workItem from="1741601256177" duration="329000" />
+      <workItem from="1741672408081" duration="1581000" />
+      <workItem from="1741694859305" duration="320000" />
+      <workItem from="1741741688569" duration="1292000" />
+      <workItem from="1741769857568" duration="533000" />
+      <workItem from="1742181718163" duration="2506000" />
+      <workItem from="1742259665217" duration="476000" />
+      <workItem from="1742264383099" duration="1804000" />
+      <workItem from="1742290291993" duration="9535000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 实现断面水质功能">
+      <created>1669001222032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669001222032</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: 针对图片上传，放开权限校验">
+      <created>1716450547030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716450547030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 实现新版合同">
+      <option name="closed" value="true" />
+      <created>1732447723063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732447723063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: 优化合同导入功能">
+      <option name="closed" value="true" />
+      <created>1732623990055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732623990055</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: 优化合同相关功能">
+      <option name="closed" value="true" />
+      <created>1732721891047</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732721891048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 实现第三版本合同">
+      <option name="closed" value="true" />
+      <created>1733545574068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733545574071</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: 优化朝阳合同，导入及导出相关功能">
+      <option name="closed" value="true" />
+      <created>1733556436042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733556436042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: bug解决合同会签单查询">
+      <option name="closed" value="true" />
+      <created>1733556660036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733556660036</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: 优化一下合同">
+      <option name="closed" value="true" />
+      <created>1733556904030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733556904030</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: 优化一下合同流程">
+      <option name="closed" value="true" />
+      <created>1733635283042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733635283042</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: 优化一下合同流程">
+      <option name="closed" value="true" />
+      <created>1733642592034</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733642592034</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: 优化一下合同流程">
+      <option name="closed" value="true" />
+      <created>1733665071341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733665071341</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: 增加合同字段">
+      <option name="closed" value="true" />
+      <created>1733715455040</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733715455041</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: 调整合同模版">
+      <option name="closed" value="true" />
+      <created>1733907548033</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733907548033</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: 优化合同管理历程">
+      <option name="closed" value="true" />
+      <created>1734320599036</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734320599036</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix: 优化合同管理历程">
+      <option name="closed" value="true" />
+      <created>1734330078049</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1734330078049</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: 优化合同管理历程">
+      <option name="closed" value="true" />
+      <created>1734426532020</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734426532020</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: 优化合同">
+      <option name="closed" value="true" />
+      <created>1734485405034</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734485405034</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix: 优化合同，增加输入框类型">
+      <option name="closed" value="true" />
+      <created>1734504668032</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734504668032</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: 优化合同流程">
+      <option name="closed" value="true" />
+      <created>1734524160037</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734524160037</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix: 优化合同附件，水印">
+      <option name="closed" value="true" />
+      <created>1735026591109</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1735026591170</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix: 优化合同">
+      <option name="closed" value="true" />
+      <created>1735394503048</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1735394503048</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix: 优化合同流程">
+      <option name="closed" value="true" />
+      <created>1735807408062</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1735807408064</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix: 增加合同编号重复提醒">
+      <option name="closed" value="true" />
+      <created>1736328859040</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736328859040</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix: 增加合同编号重复提醒">
+      <option name="closed" value="true" />
+      <created>1736329161599</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1736329161600</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix: 优化合同撤回，附件上传">
+      <option name="closed" value="true" />
+      <created>1736427615038</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1736427615039</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix: 优化定时任务">
+      <option name="closed" value="true" />
+      <created>1736577577039</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736577577039</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix: 修改合同模版（基层单位）">
+      <option name="closed" value="true" />
+      <created>1737688665037</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1737688665037</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix: 修改合同模版（基层单位）">
+      <option name="closed" value="true" />
+      <created>1737697019105</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1737697019107</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix：增加合同回退功能">
+      <option name="closed" value="true" />
+      <created>1738920881055</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1738920881057</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: 优化合同（修正word转PDF），实现合同导入功能">
+      <option name="closed" value="true" />
+      <created>1739721752034</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1739721752034</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: 支持水质mqtp接入">
+      <option name="closed" value="true" />
+      <created>1741084797031</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1741084797032</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: 实现合同编码，后端生成">
+      <option name="closed" value="true" />
+      <created>1741084826056</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1741084826056</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix: 增加合同签名，透明度">
+      <option name="closed" value="true" />
+      <created>1741154257064</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1741154257066</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix: 优化建管中心水印名称">
+      <option name="closed" value="true" />
+      <created>1742295694039</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1742295694039</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix: 优化建管中心水印名称">
+      <option name="closed" value="true" />
+      <created>1742349851032</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1742349851032</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix: 修改合同最后一步是申请人办结">
+      <option name="closed" value="true" />
+      <created>1742378230031</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1742378230031</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix: 优化会签单模版">
+      <option name="closed" value="true" />
+      <created>1742380067034</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1742380067034</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 实现第三版本合同" />
+    <MESSAGE value="fix: 优化朝阳合同，导入及导出相关功能" />
+    <MESSAGE value="fix: bug解决合同会签单查询" />
+    <MESSAGE value="fix: 优化一下合同" />
+    <MESSAGE value="`fix: 优化一下合同流程`" />
+    <MESSAGE value="fix: 优化一下合同流程" />
+    <MESSAGE value="fix: 增加合同字段" />
+    <MESSAGE value="fix: 调整合同模版" />
+    <MESSAGE value="fix: 优化合同管理历程" />
+    <MESSAGE value="fix: 优化合同，增加输入框类型" />
+    <MESSAGE value="fix: 优化合同附件，水印" />
+    <MESSAGE value="fix: 优化合同" />
+    <MESSAGE value="fix: 优化合同流程" />
+    <MESSAGE value="fix: 增加合同编号重复提醒" />
+    <MESSAGE value="fix: 优化合同撤回，附件上传" />
+    <MESSAGE value="fix: 优化定时任务" />
+    <MESSAGE value="fix: 修改合同模版（基层单位）" />
+    <MESSAGE value="feat: 优化合同（修正word转PDF），实现合同导入功能" />
+    <MESSAGE value="feat: 支持水质mqtp接入" />
+    <MESSAGE value="fix：增加合同回退功能" />
+    <MESSAGE value="feat: 实现合同编码，后端生成" />
+    <MESSAGE value="fix: 增加合同签名，透明度" />
+    <MESSAGE value="fix: 优化建管中心水印名称" />
+    <MESSAGE value="fix: 修改合同最后一步是申请人办结" />
+    <MESSAGE value="fix: 优化会签单模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 优化会签单模版" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cyzhhh-service/src/main/java/com/essence/service/impl/HtglServiceImpl.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cyzhhh-service/src/main/java/com/essence/service/impl/HtglServiceImpl.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cyzhhh-service/src/main/java/com/essence/service/impl/HtglServiceImpl.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cyzhhh-service/src/main/java/com/essence/service/impl/HtglServiceImpl.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByPackageRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

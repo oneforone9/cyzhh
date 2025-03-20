@@ -1,0 +1,125 @@
+auth:
+    config:
+        patterns: /video/warning/info,/index.html,/error,/assets/**,/images/**,/third/sso/**,/video/history/download/**,/out/**,/publicUser/**,/file/preview/**,/file/upload,/file/uploads
+
+server:
+  port: 8001
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        namespace: dev
+        server-addr: localhost:8848
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          druid:
+            initial-size: 5
+            max-active: 30
+            min-idle: 5
+          password: Essence@123
+          url: jdbc:mysql://172.16.52.4:3306/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+          username: root
+        henrunan:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          druid:
+            initial-size: 5
+            max-active: 30
+            min-idle: 5
+          password: ROOT123
+          url: jdbc:mysql://172.16.52.5:3306/hero_gateway_new?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
+          username: root
+        ruler:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          druid:
+            initial-size: 5
+            max-active: 30
+            min-idle: 5
+          password: cyq@1qaz
+          url: jdbc:mysql://172.26.67.25:3306/cyq_db_mysql?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
+          username: cyq_qzk_mysql
+      druid:
+        filters: stat,wall
+        initial-size: 15
+        max-active: 90
+        max-pool-prepared-statement-per-connection-size: 20
+        max-wait: 60000
+        min-evictable-idle-time-millis: 300000
+        min-idle: 15
+        pool-prepared-statements: true
+        test-on-borrow: false
+        test-on-return: false
+        test-while-idle: true
+        time-between-eviction-runs-millis: 60000
+        validation-query: SELECT 1
+  mvc:
+    async:
+      request-timeout: 120000
+  redis:
+    database: 1
+    host: 172.16.52.4
+    password: essence
+    port: 6379
+    timeout: 1000
+    jedis:
+      pool:
+        max-active: 100
+        max-idle: 10
+        min-idle: 5
+  servlet:
+    multipart:
+      max-file-size: 10240MB
+      max-request-size: 10240MB
+
+control:
+    bz:
+        url: http://localhost:9023/mqtt/control/bz
+    sz:
+        url: http://localhost:9023/mqtt/control/sz
+    url: http://172.16.52.5:9123/pump/status
+
+file:
+    browse:
+        url: http://172.16.52.5:10088
+    local:
+        path: D:\backend\minio\data
+
+gis:
+    proxy:
+        loacte: http://172.16.52.5:10088/arcgis/rest/services/chaoyang/rainfallDzmShp/GPServer/rainfallDzm3D/execute
+
+hik:
+    execute:
+        path: http://localhost:18001/hik/execute
+
+msg:
+    AppID: wxc6d24e9bf7719872
+    AppSecret: 846661090d628733f066840b689dba68
+    page: pages/text/index
+    sendUrl: https://api.weixin.qq.com/cgi-bin/message/subscribe/send?access_token=
+    tmplIds: jwbUi-jy0MK-CfyyuUgHl1oA5GGnjgqtwowKwiue1fc
+    tokenUrl: https://api.weixin.qq.com/cgi-bin/token
+
+nmc:
+    ld:
+        path: http://www.nmc.cn/publish/radar/huabei.html
+    lddz:
+        path: http://www.nmc.cn/publish/radar/bei-jing/da-xing.htm
+    save:
+        path: D:\backend\minio\data\radar\
+    upload:
+        url: http://localhost:8001/cyzhhh/file/upload
+    wx:
+        path: http://www.nmc.cn/publish/satellite/fy2.htm
+
+third:
+    tokens: bjlz,bjszy,jspt
+
+ysy:
+    appid: 646661152960413700
+    secretkey: 5ed7fc54fe778a6c77b2f89b3822f1f8

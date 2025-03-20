@@ -1,0 +1,23 @@
+2025-02-17 00:00:09.235 ERROR [ThreadPoolTaskScheduler-1] o.s.c.a.n.d.NacosWatch                   : Error watching Nacos Service change
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/service/list after all servers([192.168.0.205:8848]) tried: failed to req API:192.168.0.205:8848/nacos/v1/ns/service/list. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:464) ~[nacos-client-1.1.0.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:430) ~[nacos-client-1.1.0.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:376) ~[nacos-client-1.1.0.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.getServiceList(NamingProxy.java:358) ~[nacos-client-1.1.0.jar:?]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.getServiceList(NamingProxy.java:334) ~[nacos-client-1.1.0.jar:?]
+	at com.alibaba.nacos.client.naming.NacosNamingService.getServicesOfServer(NacosNamingService.java:440) ~[nacos-client-1.1.0.jar:?]
+	at org.springframework.cloud.alibaba.nacos.discovery.NacosWatch.nacosServicesWatch(NacosWatch.java:127) ~[spring-cloud-alibaba-nacos-discovery-0.2.2.RELEASE.jar:0.2.2.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.8.jar:5.3.8]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_251]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_251]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_251]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_251]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_251]
+2025-02-17 00:00:10.722 DEBUG [taskScheduler-21] c.e.d.S.kvList                           : ==>  Preparing: select `key` as lgtd,`value` as lttd from `cyzhhh`.`setting` where `key` = ?; 
+2025-02-17 00:00:10.722 DEBUG [taskScheduler-21] c.e.d.S.kvList                           : ==> Parameters: caiYunEnable(String)
+2025-02-17 00:00:13.673 DEBUG [taskScheduler-21] c.e.d.S.kvList                           : <==      Total: 1
+2025-02-17 00:00:13.674  INFO [taskScheduler-21] c.e.j.c.CaiyunTask                       : 彩云天气定时任务准备执行,setting表中的value=false
+2025-02-17 00:00:34.325  INFO [SpringApplicationShutdownHook] o.s.c.a.n.r.NacosServiceRegistry         : De-registering from Nacos Server now...
+2025-02-17 00:00:34.453  INFO [SpringApplicationShutdownHook] o.s.c.a.n.r.NacosServiceRegistry         : De-registration finished.

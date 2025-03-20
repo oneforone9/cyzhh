@@ -1,0 +1,17 @@
+feign:
+    hystrix:
+        enabled: true
+mybatis-plus:
+    configuration:
+        auto-mapping-behavior: full
+    mapper-locations: classpath*:/mapper/**.xml
+server:
+    servlet:
+        context-path: /cyzhhh
+spring:
+    application:
+        name: cyzhhh
+    main:
+        allow-bean-definition-overriding: true
+    profiles:
+        active: dev

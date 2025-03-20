@@ -1,0 +1,35 @@
+server:
+  port: 9023
+spring:
+  mqtt:
+    username: admin					# 账号
+    password: public					# 密码
+    host-url: tcp://localhost:1885	# mqtt连接tcp地址
+    client-id: mqtt-essence-station		# 客户端Id，每个启动的id要不同
+#   如果有新增的topic 数据进来则 在此处新增topic
+    default-topic: topic-water-level,topic-rate-flow,topic-water-sz,topic-water-sz-control,topic-water-bz,topic-water-bz-control,topic-water-shuizhi,topic-water-bj # 默认主题
+    timeout: 1000							# 超时时间
+    keepalive: 1000
+
+#  mybatis-plus.mapper-locations=classpath*:/mapper/**.xml
+#  mybatis-plus.configuration.auto-mapping-behavior=full
+##mysql
+#  spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+#  spring.datasource.url1=jdbc:mysql://192.168.0.19:3306/cgssp?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+#  spring.datasource.username=root
+#  spring.datasource.password=essence
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: cyzhhh
+#    password: Essence@1
+#    url: jdbc:mysql://192.168.0.201:3306/cyzhhh?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
+
+    username: root
+    password: Essence@123
+    url: jdbc:mysql://172.16.52.4/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**.xml
+  configuration:
+    auto-mapping-behavior: full

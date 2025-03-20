@@ -1,0 +1,92 @@
+auth:
+    config:
+        patterns: /video/warning/info,/index.html,/error,/assets/**,/images/**,/third/sso/**,/video/history/download/**,/out/**,/publicUser/**,/file/preview/**
+
+server:
+  port: 8000
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 192.168.0.205:8848
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          password: Essence@1
+          url: jdbc:mysql://192.168.0.201:3306/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
+          username: cyzhhh
+        henrunan:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          password: Essence@1
+          url: jdbc:mysql://192.168.0.201:3306/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
+          username: cyzhhh
+        ruler:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          password: Essence@1
+          url: jdbc:mysql://192.168.0.201:3306/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
+          username: cyzhhh
+  mvc:
+    async:
+      request-timeout: 120000
+  redis:
+    database: 1
+    host: 192.168.0.205
+    password: essence
+    port: 6379
+    timeout: 30000
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+control:
+    bz:
+        url: http://localhost:9023/mqtt/control/bz
+    sz:
+        url: http://172.16.52.5:9023/mqtt/control/sz
+    url: http://192.168.0.153:9123/pump/status
+
+file:
+    browse:
+        url: https://iessence.com.cn/cyzhhh
+    local:
+        path: D:\cyzhhh\backend\minio\data
+
+gis:
+    proxy:
+        loacte: http://101.201.146.18:6080/arcgis/rest/services/chaoyang/rainfallDzmShp/GPServer/rainfallDzm3D/execute
+
+hik:
+    execute:
+        path: http://localhost:18001/hik/execute
+
+msg:
+    AppID: wxc6d24e9bf7719872
+    AppSecret: 846661090d628733f066840b689dba68
+    page: pages/text/index
+    sendUrl: https://api.weixin.qq.com/cgi-bin/message/subscribe/send?access_token=
+    tmplIds: jwbUi-jy0MK-CfyyuUgHl1oA5GGnjgqtwowKwiue1fc
+    tokenUrl: https://api.weixin.qq.com/cgi-bin/token
+
+nmc:
+    ld:
+        path: http://www.nmc.cn/publish/radar/huabei.html
+    lddz:
+        path: http://www.nmc.cn/publish/radar/bei-jing/da-xing.htm
+    save:
+        path: D:\cyzhhh\backend\minio\data\radar\
+    upload:
+        url: http://192.168.0.205:18083/cyzhhh/file/upload
+    wx:
+        path: http://www.nmc.cn/publish/satellite/fy2.htm
+
+third:
+    tokens: bjlz,bjszy,jspt
+
+ysy:
+    appid: 646661152960413700
+    secretkey: 5ed7fc54fe778a6c77b2f89b3822f1f8

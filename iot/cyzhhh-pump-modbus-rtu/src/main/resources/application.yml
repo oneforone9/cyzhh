@@ -1,0 +1,33 @@
+
+
+spring:
+  profiles:
+    active: test
+  resources:
+    cache:
+      period: 0
+  application:
+    name: iot-netty
+
+#socket:
+#  # 监听端口 8090
+#  port: 18090
+#  #ip地址
+#  host: 192.168.0.189
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+#    测试
+#    password: 49332d2OS1bvXqlRbbjUbqFuHvYCEIK0
+#    url: jdbc:mysql://192.168.0.19:3306/cyzhhh?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC+8
+
+#    生产 127.0.0.1:3307 172.16.52.4:3306 3307@cy@172.16.52.4@3306
+    password: Essence@123
+    url: jdbc:mysql://172.16.52.4:3306/cyzhhh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**.xml
+  configuration:
+    auto-mapping-behavior: full
+server:
+  port: 9123

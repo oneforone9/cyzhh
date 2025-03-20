@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.essence.dao.StCaiyunPrecipitationRealDao">
+
+    <select id="getStationAndRainGrid" resultType="com.essence.dao.entity.vo.CaiyunPrecipitationRealVo">
+        SELECT a.stcd,
+               a.mesh_id  meshId,
+               b.drp,
+               b.drp_time drpTime
+        FROM st_caiyun_mesh a
+                 LEFT JOIN st_caiyun_precipitation_real b ON a.mesh_id = b.mesh_id
+            AND b.drp_time &gt;= #{beginTime} AND b.drp_time &lt;= #{endTime}
+        WHERE a.stcd IS NOT NULL
+    </select>
+</mapper>
