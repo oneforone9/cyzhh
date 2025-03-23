@@ -1,5 +1,6 @@
 package com.essence.interfaces.model;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.essence.interfaces.entity.Esr;
 import lombok.Data;
 
@@ -82,5 +83,11 @@ public class EmergencyTeamEsr extends Esr {
      * 纬度
      */
     private BigDecimal lttd;
+
+
+    /**
+     * 组织机构
+     */
+    private String corpId;
 
 }

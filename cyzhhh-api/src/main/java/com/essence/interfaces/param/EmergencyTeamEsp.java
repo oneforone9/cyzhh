@@ -88,4 +88,11 @@ public class EmergencyTeamEsp extends Esp {
     private BigDecimal lttd;
 
 
+    /**
+     * 组织机构
+     */
+    @ColumnMean("corp_id")
+    private String corpId;
+
+
 }

@@ -83,4 +83,10 @@ public class EmergencyTeamEsu extends Esu {
      */
     private BigDecimal lttd;
 
+
+    /**
+     * 组织机构
+     */
+    private String corpId;
+
 }

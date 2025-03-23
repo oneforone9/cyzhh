@@ -248,7 +248,7 @@ public class XjrwServiceImpl extends BaseApiImpl<XjrwEsu, XjrwEsp, XjrwEsr, Xjrw
                     break;
                 case "5":
                     xjrwDto1.setWcqk(1);
-                    if (xjrwDto1.getJssj().getTime() < new Date().getTime()) {
+                    if (null!= xjrwDto1.getJjsj()&&(xjrwDto1.getJssj().getTime() < xjrwDto1.getJjsj().getTime())) {
                         xjrwDto1.setWcqk(2);
                     }
                     if (xjrwDto1.getFxwt() > 0) {
@@ -274,7 +274,7 @@ public class XjrwServiceImpl extends BaseApiImpl<XjrwEsu, XjrwEsp, XjrwEsr, Xjrw
         }
         if (null!=xjrwDto1.getZt()&&(xjrwDto1.getZt()<6&&xjrwDto1.getZt()>4)){
             xjrwDto1.setWcqk(1);
-            if (xjrwDto1.getJssj().getTime() < new Date().getTime()) {
+            if (null!= xjrwDto1.getJjsj()&&(xjrwDto1.getJssj().getTime() < xjrwDto1.getJjsj().getTime())) {
                 xjrwDto1.setWcqk(2);
             }
         }

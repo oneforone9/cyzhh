@@ -106,4 +106,9 @@ public class EmergencyTeam extends Model<EmergencyTeam> {
     private BigDecimal lttd;
 
 
+    /**
+     * 组织机构
+     */
+    @TableField("corp_id")
+    private String corpId;
 }
